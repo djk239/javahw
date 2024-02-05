@@ -51,6 +51,7 @@ public class main
             System.out.println("Merged: " + merged.toString());
             System.out.println("Merged Sorted: " + mergeSorted.toString());
             System.out.println("\nEnter anything to continue, type exit to quit");
+            input = scanner.nextLine();
             
         }
             
