@@ -11,6 +11,6 @@ public class Onetime extends Appointment
     @Override //override, (same as in appointment)
     public boolean occursOn(int d, int m, int y)
     {
-        return this.day == d && this.month == m && this.year == y;
+        return this.getDay() == d && this.getMonth() == m && this.getYear() == y;
     }
 }

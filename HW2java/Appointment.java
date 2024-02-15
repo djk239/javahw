@@ -2,7 +2,7 @@
 
 public class Appointment
 {
-    protected int day, month, year;
+    private int day, month, year;
     private String desc;
     
     //constructor
@@ -20,10 +20,22 @@ public class Appointment
         return this.day == d && this.month == m && this.year == y;
     }
     
-    //returns the appointment description
+    //Getters to return privare variables
     public String getDesc()
     {
         return this.desc;
+    }
+    public int getDay()
+    {
+        return this.day;
+    }
+    public int getMonth()
+    {
+        return this.month;
+    }
+    public int getYear()
+    {
+        return this.year;
     }
 }
 

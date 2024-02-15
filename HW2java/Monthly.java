@@ -11,6 +11,6 @@ public class Monthly extends Appointment
     @Override //override, returns true if the day is the same (monthly)
     public boolean occursOn(int d, int m, int y)
     {
-        return this.day == d;
+        return this.getDay() == d;
     }
 }
